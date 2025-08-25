@@ -32,9 +32,9 @@ Whenever you save a link, the extension automatically generates a **concise one-
 - The extension will now appear in your Chrome toolbar 🚀
 
 ## Demo
-👉 Check screenshots in the demo/ folder
+- ![Extension Demo](screenshot4.png)
 
-## 📦 Tech Stack
+## Tech Stack
 - JavaScript (Vanilla)
 - Chrome Extensions API
 - Google Gemini API
