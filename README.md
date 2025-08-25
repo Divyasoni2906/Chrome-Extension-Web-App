@@ -21,24 +21,24 @@ Whenever you save a link, the extension automatically generates a **concise one-
    ```bash
    git clone https://github.com/Divyasoni2906/Chrome-Extension-Web-App.git
    cd Chrome-Extension-Web-App
-Set up API key
-Get a free Gemini API key from Google AI Studio
-Create a .env file in the project root:
-GEMINI_API_KEY=your_api_key_here
-Load into Chrome
-Open Chrome and go to chrome://extensions/
-Enable Developer mode (toggle in top-right)
-Click Load unpacked and select this folder
-The extension will now appear in your Chrome toolbar 🚀
+- Set up API key
+- Get a free Gemini API key from Google AI Studio
+- Create a .env file in the project root:
+- GEMINI_API_KEY=your_api_key_here
+- Load into Chrome
+- Open Chrome and go to chrome://extensions/
+- Enable Developer mode (toggle in top-right)
+- Click Load unpacked and select this folder
+- The extension will now appear in your Chrome toolbar 🚀
 
 ## Demo
 👉 Check screenshots in the demo/ folder
 
 ## 📦 Tech Stack
-JavaScript (Vanilla)
-Chrome Extensions API
-Google Gemini API
+- JavaScript (Vanilla)
+- Chrome Extensions API
+- Google Gemini API
 
 ## Roadmap / Future Enhancements
-📤 Export/import leads to CSV or JSON
-🌙 Dark mode UI
+- Export/import leads to CSV or JSON
+   Dark mode UI
