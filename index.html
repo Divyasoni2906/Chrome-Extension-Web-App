@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lead Vault AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      background: #f2f2f2;
+      width: 320px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      text-align: center;
+      color: black;
+    }
+    #input-el {
+      width: 75%;
+      padding: 6px;
+      /* border: 1px solid #ccc; */
+      border-radius: 6px;
+      margin-bottom: 6px;
+    }
+    button {
+      padding: 6px 12px;
+      margin: 2px 0;
+      border: none;
+      border-radius: 6px;
+      background: #c4c4c4;
+      color: black;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #7f7f7f;
+    }
+    #delete-btn {
+      background: #747474;
+    }
+    #delete-btn:hover {
+      background: #7f7f7f;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 6px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+      word-break: break-all;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>Lead Vault</h2>
+  <input type="text" id="input-el" placeholder="Enter a lead (URL)" />
+  <button id="input-btn">Save Lead</button>
+  <button id="tab-btn">Save Current Tab</button>
+  <button id="delete-btn">Delete All</button>
+  <ul id="ul-el"></ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+

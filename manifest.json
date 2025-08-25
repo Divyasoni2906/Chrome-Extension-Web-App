@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Leads Tracker",
+  "version": "1.0",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+        "16": "assets/icon16.jpg",
+        "48": "assets/icon48.jpg",
+        "128": "assets/icon128.jpg"
+      }
+  },
+   "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
