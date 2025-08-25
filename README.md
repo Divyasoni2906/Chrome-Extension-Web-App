@@ -32,7 +32,7 @@ Whenever you save a link, the extension automatically generates a **concise one-
 - The extension will now appear in your Chrome toolbar 🚀
 
 ## Demo
-- ![Extension Demo](Screenshot (4).png)
+- ![Extension Demo](Screenshot%20(4).png)
 
 ## Tech Stack
 - JavaScript (Vanilla)
